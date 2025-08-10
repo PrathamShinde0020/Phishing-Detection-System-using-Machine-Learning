@@ -1,0 +1,9 @@
+2025-08-10 11:40:45,848 - models.url_classifier - ERROR - Error making URL prediction: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:40:45,849 - services.prediction_service - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:40:45,849 - __main__ - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:41:48,974 - models.url_classifier - ERROR - Error making URL prediction: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:41:48,974 - services.prediction_service - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:41:48,975 - __main__ - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 12:23:13,687 - __main__ - ERROR - Prediction error: 'PredictionService' object has no attribute 'predict'
+2025-08-10 12:23:23,079 - __main__ - ERROR - Prediction error: 'PredictionService' object has no attribute 'predict'
+2025-08-10 12:23:23,698 - __main__ - ERROR - Prediction error: 'PredictionService' object has no attribute 'predict'

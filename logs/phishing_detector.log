@@ -1,0 +1,184 @@
+2025-08-10 11:27:13,551 - __main__ - INFO - Starting email classifier training
+2025-08-10 11:27:28,671 - __main__ - INFO - Training logistic_regression
+2025-08-10 11:27:31,006 - __main__ - INFO - Training random_forest
+2025-08-10 11:28:12,938 - __main__ - INFO - Training mlp
+2025-08-10 11:29:49,088 - __main__ - INFO - Email model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 11:29:49,089 - __main__ - INFO - Best model: mlp (F1: 0.9829)
+2025-08-10 11:29:49,502 - __main__ - INFO - Starting URL classifier training
+2025-08-10 11:29:49,668 - __main__ - INFO - Training random_forest
+2025-08-10 11:29:50,191 - __main__ - INFO - Training logistic_regression
+2025-08-10 11:29:50,293 - __main__ - INFO - URL model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 11:29:50,294 - __main__ - INFO - Best URL model: random_forest (F1: 0.9401)
+2025-08-10 11:39:04,923 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 11:39:05,040 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 11:39:05,040 - services.prediction_service - INFO - Models loaded successfully
+2025-08-10 11:39:05,040 - __main__ - INFO - Application initialized successfully
+2025-08-10 11:39:50,667 - __main__ - INFO - Prediction made: email - Safe
+2025-08-10 11:40:24,318 - __main__ - INFO - Prediction made: email - Safe
+2025-08-10 11:40:45,848 - models.url_classifier - ERROR - Error making URL prediction: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:40:45,849 - services.prediction_service - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:40:45,849 - __main__ - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:41:48,974 - models.url_classifier - ERROR - Error making URL prediction: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:41:48,974 - services.prediction_service - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:41:48,975 - __main__ - ERROR - Prediction error: X has 31 features, but RandomForestClassifier is expecting 30 features as input.
+2025-08-10 11:48:37,730 - __main__ - INFO - Starting email classifier training
+2025-08-10 11:48:52,840 - __main__ - INFO - Training logistic_regression
+2025-08-10 11:48:55,085 - __main__ - INFO - Training random_forest
+2025-08-10 11:51:41,648 - __main__ - INFO - Training mlp
+2025-08-10 11:53:35,249 - __main__ - INFO - Email model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 11:53:35,249 - __main__ - INFO - Best model: mlp (F1: 0.9829)
+2025-08-10 11:53:35,477 - __main__ - INFO - Starting URL classifier training
+2025-08-10 11:53:35,538 - __main__ - INFO - Training random_forest
+2025-08-10 11:53:35,798 - __main__ - INFO - Training logistic_regression
+2025-08-10 11:53:35,847 - __main__ - INFO - URL model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 11:53:35,847 - __main__ - INFO - Best URL model: random_forest (F1: 0.9401)
+2025-08-10 11:54:49,405 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 11:54:49,509 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 11:54:49,510 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 11:54:49,510 - services.prediction_service - INFO - Models loaded successfully
+2025-08-10 11:54:49,510 - __main__ - INFO - Application initialized successfully
+2025-08-10 11:55:30,879 - __main__ - INFO - Prediction made: email - Safe
+2025-08-10 11:55:47,075 - __main__ - INFO - Prediction made: url - Phishing
+2025-08-10 11:56:10,682 - __main__ - INFO - Prediction made: url - Legitimate
+2025-08-10 11:57:23,119 - __main__ - INFO - Prediction made: email - Safe
+2025-08-10 12:15:06,998 - __main__ - INFO - Starting email classifier training
+2025-08-10 12:15:22,382 - __main__ - INFO - Training logistic_regression
+2025-08-10 12:15:27,446 - __main__ - INFO - Training random_forest
+2025-08-10 12:19:22,587 - __main__ - INFO - Training mlp
+2025-08-10 12:21:33,576 - __main__ - INFO - Email model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 12:21:33,577 - __main__ - INFO - Best model: mlp (F1: 0.9829)
+2025-08-10 12:21:33,982 - __main__ - INFO - Starting URL classifier training
+2025-08-10 12:21:34,133 - __main__ - INFO - Training random_forest
+2025-08-10 12:21:34,695 - __main__ - INFO - Training logistic_regression
+2025-08-10 12:21:34,807 - __main__ - INFO - URL model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 12:21:34,808 - __main__ - INFO - Best URL model: random_forest (F1: 0.9401)
+2025-08-10 12:22:10,267 - __main__ - INFO - Application initialized successfully
+2025-08-10 12:23:13,687 - __main__ - ERROR - Prediction error: 'PredictionService' object has no attribute 'predict'
+2025-08-10 12:23:23,079 - __main__ - ERROR - Prediction error: 'PredictionService' object has no attribute 'predict'
+2025-08-10 12:23:23,698 - __main__ - ERROR - Prediction error: 'PredictionService' object has no attribute 'predict'
+2025-08-10 12:28:21,153 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 12:28:21,248 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 12:28:21,248 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 12:28:21,248 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 12:28:24,120 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 12:28:24,202 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 12:28:24,202 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 12:28:24,202 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 12:44:58,576 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 12:44:58,656 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 12:44:58,656 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 12:44:58,657 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 12:47:41,714 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 12:47:41,795 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 12:47:41,796 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 12:47:41,796 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 12:47:44,687 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 12:47:44,762 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 12:47:44,762 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 12:47:44,762 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 12:49:13,942 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 12:49:14,021 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 12:49:14,021 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 12:49:14,021 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 13:22:54,439 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 13:22:54,563 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 13:22:54,563 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 13:22:54,564 - services.prediction_service - INFO - Model classes found: [0 1]
+2025-08-10 13:22:54,564 - services.prediction_service - INFO - Final email label mapping: {0: '0', 1: '1'}
+2025-08-10 13:22:54,564 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 13:22:54,564 - services.prediction_service - INFO - Email label mapping: {0: '0', 1: '1'}
+2025-08-10 13:23:24,593 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 13:23:24,677 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 13:23:24,677 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 13:23:24,678 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 13:25:20,059 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 13:25:20,141 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 13:25:20,142 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 13:25:20,142 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 13:28:59,311 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 13:28:59,390 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 13:28:59,391 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 13:28:59,391 - services.prediction_service - INFO - Model classes found: [0 1]
+2025-08-10 13:28:59,391 - services.prediction_service - INFO - Final email label mapping: {0: '0', 1: '1'}
+2025-08-10 13:28:59,392 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 13:28:59,392 - services.prediction_service - INFO - Email label mapping: {0: '0', 1: '1'}
+2025-08-10 13:29:02,232 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 13:29:02,316 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 13:29:02,317 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 13:29:02,317 - services.prediction_service - INFO - Model classes found: [0 1]
+2025-08-10 13:29:02,318 - services.prediction_service - INFO - Final email label mapping: {0: '0', 1: '1'}
+2025-08-10 13:29:02,318 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 13:29:02,318 - services.prediction_service - INFO - Email label mapping: {0: '0', 1: '1'}
+2025-08-10 13:29:17,689 - __main__ - INFO - Starting email classifier training
+2025-08-10 13:29:32,235 - __main__ - INFO - Training logistic_regression
+2025-08-10 13:29:34,358 - __main__ - INFO - Training random_forest
+2025-08-10 13:30:50,926 - __main__ - INFO - Training mlp
+2025-08-10 13:31:51,072 - __main__ - INFO - Email model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 13:31:51,072 - __main__ - INFO - Best model: mlp (F1: 0.9829)
+2025-08-10 13:31:51,343 - __main__ - INFO - Starting URL classifier training
+2025-08-10 13:31:51,413 - __main__ - INFO - Training random_forest
+2025-08-10 13:31:51,689 - __main__ - INFO - Training logistic_regression
+2025-08-10 13:31:51,740 - __main__ - INFO - URL model saved to C:\Users\Prathamesh\Downloads\Cybersec_projects\phishing_detection\models\saved_models
+2025-08-10 13:31:51,740 - __main__ - INFO - Best URL model: random_forest (F1: 0.9401)
+2025-08-10 21:00:26,026 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 21:00:26,181 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 21:00:26,181 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 21:00:26,181 - services.prediction_service - INFO - Model classes found: [0 1]
+2025-08-10 21:00:26,182 - services.prediction_service - INFO - Final email label mapping: {0: '0', 1: '1'}
+2025-08-10 21:00:26,182 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 21:00:26,182 - services.prediction_service - INFO - Email label mapping: {0: '0', 1: '1'}
+2025-08-10 21:00:29,275 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 21:00:29,363 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 21:00:29,364 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 21:00:29,364 - services.prediction_service - INFO - Model classes found: [0 1]
+2025-08-10 21:00:29,364 - services.prediction_service - INFO - Final email label mapping: {0: '0', 1: '1'}
+2025-08-10 21:00:29,364 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 21:00:29,364 - services.prediction_service - INFO - Email label mapping: {0: '0', 1: '1'}
+2025-08-10 21:28:48,672 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 21:28:48,672 - models.email_classifier - INFO - Model classes: [0 1]
+2025-08-10 21:28:48,763 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 21:28:48,763 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 21:28:48,763 - services.prediction_service - INFO - Model classes found: [0 1]
+2025-08-10 21:28:48,764 - services.prediction_service - INFO - Final email label mapping: {0: '0', 1: '1'}
+2025-08-10 21:28:48,764 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 21:28:48,764 - services.prediction_service - INFO - Email label mapping: {0: '0', 1: '1'}
+2025-08-10 21:31:59,906 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 21:31:59,906 - models.email_classifier - INFO - Model classes: [0 1]
+2025-08-10 21:31:59,992 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 21:31:59,992 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 21:31:59,992 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 21:32:02,911 - models.email_classifier - INFO - Email classifier loaded successfully
+2025-08-10 21:32:02,911 - models.email_classifier - INFO - Model classes: [0 1]
+2025-08-10 21:32:03,034 - models.url_classifier - INFO - Model expects 30 features
+2025-08-10 21:32:03,034 - models.url_classifier - INFO - URL classifier loaded successfully
+2025-08-10 21:32:03,034 - services.prediction_service - INFO - All models loaded successfully
+2025-08-10 21:32:56,909 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 0.8818
+2025-08-10 21:32:56,909 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 0.8818
+2025-08-10 21:33:12,767 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 0.8818
+2025-08-10 21:33:12,768 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 0.8818
+2025-08-10 21:33:54,261 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:54,262 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:55,828 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:55,829 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:56,051 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:56,052 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:56,260 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:56,260 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:56,461 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:56,462 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:56,668 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:56,668 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:56,865 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:56,866 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:57,059 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:57,059 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:33:57,269 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 1.0000
+2025-08-10 21:33:57,270 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 1.0000
+2025-08-10 21:34:27,903 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 0.9998
+2025-08-10 21:34:27,904 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 0.9998
+2025-08-10 21:34:28,707 - models.email_classifier - INFO - Email prediction - Raw: 0, Confidence: 0.9998
+2025-08-10 21:34:28,707 - services.prediction_service - INFO - DEBUG - Email prediction: 0, Confidence: 0.9998
+2025-08-10 21:34:50,309 - models.url_classifier - INFO - URL prediction - Raw: 1, Confidence: 0.5200
+2025-08-10 21:34:50,309 - services.prediction_service - INFO - DEBUG - URL prediction: 1, Confidence: 0.5200
+2025-08-10 21:35:02,948 - models.url_classifier - INFO - URL prediction - Raw: -1, Confidence: 0.8000
+2025-08-10 21:35:02,949 - services.prediction_service - INFO - DEBUG - URL prediction: -1, Confidence: 0.8000
