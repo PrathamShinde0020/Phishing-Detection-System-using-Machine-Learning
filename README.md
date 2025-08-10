@@ -24,7 +24,7 @@ A production-ready, AI-powered system for detecting phishing emails and maliciou
 
 1. **Clone the repository**
 ```bash
-git clone <https://github.com/PrathamShinde0020/Phishing-Detection-System-using-Machine-Learning-.git>
+git clone https://github.com/PrathamShinde0020/Phishing-Detection-System-using-Machine-Learning-.git
 cd phishing-detection-system
 ```
 
